@@ -1,0 +1,17 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/read", "destination": "/ebook.html" },
+    { "source": "/bible.epub", "destination": "/downloads/the-makers-bible-of-electromechanical-salvage.epub" },
+    { "source": "/bible.md", "destination": "/downloads/the-makers-bible-of-electromechanical-salvage.md" },
+    { "source": "/compendium", "destination": "/downloads/salvage-compendium.md" }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}

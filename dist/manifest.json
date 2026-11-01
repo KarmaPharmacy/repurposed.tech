@@ -1,0 +1,23 @@
+{
+  "name": "REPURPOSED.TECH - Laboratory Terminal",
+  "short_name": "REPURPOSED",
+  "description": "The Maker's Bible of Electromechanical Salvage & Repurposing",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070b08",
+  "theme_color": "#4ade80",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
